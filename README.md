@@ -2,6 +2,7 @@
 > This document is designed to be a guideline for engineers, explaining how a good PR look like, and what to do in certain situations. 
 
 ## Communication
+TBC
 
 ## Mentality
 Don't be afraid to **REJECT** PR.
@@ -20,7 +21,8 @@ What PR's are **NOT**
 
 What PR's **ARE**
 > - PR's, are opportunities to learn. This works both ways as for reviewer as well as for PR creator
-> - PR's, are designed to get our code quality as close as possible to standards we follow **(link to our standards?)**
+> - PR's, are designed to get our code quality as close as possible to standards we follow
 > - PR's, are collective effort, not single engineer
 
 ## Technical
+TBC
