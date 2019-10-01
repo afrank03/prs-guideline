@@ -16,9 +16,18 @@ Don't be afraid to **REJECT** PR.
 > - PR is not following this guide
 
 If you have comitted your time for reviewing a PR, make sure you are doing it well.
-> Pull the code and run the app on your local environment
+> Pull the code from PR and run the app on your local environment
+> Review code as if it's last chance to save the world. 
+> Do not skim it. If you started it, put some effort into it.
+> Keep checks of whitespaces and missing commas for linters and automations.
+> If PR is opened in TFS, toggle `Wait for author` option.
+> - So that people can see, that you are reviewing it.
+> - To prevent completion while you are reviewing PR
 
-### Things to remember
+If you are opening PR.
+> Make sure, you have checked everything before you ask for a review.
+
+### Things to keep in mind
 What PR's are **NOT**
 > - PR's, are not just one way, dry opportunity to get your code to `master`
 > - PR's, are not for personal arguments, as well as they are not designed to abuse you or anyone else
@@ -37,7 +46,33 @@ Why bother?
 > - It reduces chances of bugs
 > - It does not block other engineers
 > - It speeds up delivery
+
 What is the real world TOP limit? Where should I hit REJECT button? 
 > - If Pull Request is larger then **700** changed or new lines, don't be afraid of asking for a breakdown.
 > - If it's sometihing rediculous like **30+** files chnaged, we should breakdown this PR.
 
+What if there is no way to avoid **HUGE PR**
+> - Request a group review session (ideally with at least one representative from a different team)
+> - Walk through your PR
+
+### How to format PR description and title?
+Every PR Title must follow agreed structure. Be descriptive. Use tags.
+> TAGs
+```sh
+[FEATURE]  # New feature
+[BUG]      # Bug fix
+[REFACTOR] # Refactored legacy / resolved tech debt
+[SETUP]    # Configuration / new app / plugin setup
+[WIP]      # Work In Progress
+[DNM]      # Do Not Merge
+```
+Example:
+> ```
+> [FEATURE] New Login POST endpoint for MyGoCo
+> [BUG] Fixed brken login validation
+> [REFACTOR] Implemented factory pattern
+> ```
+
+You can combine TAGs if needed.
+Example:
+> `[WIP][FEATURE] Adding new comment component`
