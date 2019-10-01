@@ -57,16 +57,17 @@ What if there is no way to avoid **HUGE PR**
 
 ### How to format PR description and title?
 Every PR Title must follow agreed structure. Be descriptive. Use tags.
-> TAGs
-```sh
-[FEATURE]  # New feature
-[BUG]      # Bug fix
-[REFACTOR] # Refactored legacy / resolved tech debt
-[SETUP]    # Configuration / new app / plugin setup
-[WIP]      # Work In Progress
-[DNM]      # Do Not Merge
-```
-Example:
+**TAGs:**
+> ```
+> [FEATURE]  # New feature
+> [BUG]      # Bug fix
+> [REFACTOR] # Refactored legacy / resolved tech debt
+> [SETUP]    # Configuration / new app / plugin setup
+> [WIP]      # Work In Progress
+> [DNM]      # Do Not Merge
+> ```
+
+> **Example:**
 > ```
 > [FEATURE] New Login POST endpoint for MyGoCo
 > [BUG] Fixed brken login validation
@@ -74,5 +75,5 @@ Example:
 > ```
 
 You can combine TAGs if needed.
-Example:
+> **Example:**
 > `[WIP][FEATURE] Adding new comment component`
