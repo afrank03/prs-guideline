@@ -8,12 +8,16 @@ TBC
 Don't be afraid to **REJECT** PR.
 > Straight reasons to reject:
 > - Poor solution quality
-> - Standards are not met
+> - Coding Standards are not met
 > - Security issues
-> - **Q**uality, **U**nderstanding, **A**greement, **D**eployment, **S**ecurity. 
+> - Missing **Q**uality, **U**nderstanding, **A**greement, **D**eployment, **S**ecurity. 
 [What is QUADS?](https://gocomparecom.sharepoint.com/Tech-Engineering/SitePages/Pull-Request-Guide.aspx) 
-> - PR is too BIG (see agreed limits)
+> - PR is too BIG (see agreed limits bellow)
 > - PR is not following this guide
+
+If you have comitted your time for reviewing a PR, make sure you are doing it well.
+> Pull the code and run the app on your local environment
+
 ### Things to remember
 What PR's are **NOT**
 > - PR's, are not just one way, dry opportunity to get your code to `master`
@@ -25,4 +29,15 @@ What PR's **ARE**
 > - PR's, are collective effort, not single engineer
 
 ## Technical
-TBC
+### What is the perfect PR **size**?
+> Many studies of Pull Requests, like one from "Cisco", has shown that ideal size for a single PR is **up to 400 lines** of code.
+> Not only number of lines is important, but number of files is also crucial. 
+Why bother?
+> - It quicker & esier to review
+> - It reduces chances of bugs
+> - It does not block other engineers
+> - It speeds up delivery
+What is the real world TOP limit? Where should I hit REJECT button? 
+> - If Pull Request is larger then **700** changed or new lines, don't be afraid of asking for a breakdown.
+> - If it's sometihing rediculous like **30+** files chnaged, we should breakdown this PR.
+
