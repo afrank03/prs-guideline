@@ -6,7 +6,7 @@ TBC
 
 ## Mentality
 Don't be afraid to **REJECT** PR.
-> Straight reasons to reject:
+> **Straight reasons to reject:**
 > - Poor solution quality
 > - Coding Standards are not met
 > - Security issues
@@ -16,13 +16,13 @@ Don't be afraid to **REJECT** PR.
 > - PR is not following this guide
 
 If you have comitted your time for reviewing a PR, make sure you are doing it well.
-> Pull the code from PR and run the app on your local environment
-> Review code as if it's last chance to save the world. 
-> Do not skim it. If you started it, put some effort into it.
-> Keep checks of whitespaces and missing commas for linters and automations.
-> If PR is opened in TFS, toggle `Wait for author` option.
-> - So that people can see, that you are reviewing it.
-> - To prevent completion while you are reviewing PR
+> - Pull the code from PR and run the app on your local environment
+> - Review code as if it's last chance to save the world. 
+> - Do not skim it. If you started it, put some effort into it.
+> - Keep checks of whitespaces and missing commas for linters and automations.
+> - If PR is opened in TFS, toggle `Wait for author` option.
+>   - So that people can see, that you are reviewing it.
+>   - To prevent completion while you are reviewing PR
 
 If you are opening PR.
 > Make sure, you have checked everything before you ask for a review.
@@ -57,6 +57,7 @@ What if there is no way to avoid **HUGE PR**
 
 ### How to format PR description and title?
 Every PR Title must follow agreed structure. Be descriptive. Use tags.
+
 **TAGs:**
 > ```
 > [FEATURE]  # New feature
