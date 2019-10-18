@@ -33,7 +33,7 @@ What PR's are **NOT**
 > - PR's, are not for personal arguments, as well as they are not designed to abuse you or anyone else
 
 What PR's **ARE**
-> - PR's, are opportunities to learn. This works both ways as for reviewer as well as for PR creator
+> - PR's, are **opportunities to learn**. This works both ways as for reviewer as well as for PR creator
 > - PR's, are designed to get our code quality as close as possible to standards we follow
 > - PR's, are collective effort, not single engineer
 
