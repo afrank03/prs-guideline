@@ -15,7 +15,7 @@ Don't be afraid to **REJECT** PR.
 > - PR is too BIG (see agreed limits bellow)
 > - PR is not following this guide
 
-If you have comitted your time for reviewing a PR, make sure you are doing it well.
+If you have committed your time for reviewing a PR, make sure you are doing it well.
 > - Pull the code from PR and run the app on your local environment
 > - Review code as if it's last chance to save the world. 
 > - Do not skim it. If you started it, put some effort into it.
@@ -42,14 +42,14 @@ What PR's **ARE**
 > Many studies of Pull Requests, like one from "Cisco", has shown that ideal size for a single PR is **up to 400 lines** of code.
 > Not only number of lines is important, but number of files is also crucial. 
 Why bother?
-> - It quicker & esier to review
+> - It quicker & easier to review
 > - It reduces chances of bugs
 > - It does not block other engineers
 > - It speeds up delivery
 
 What is the real world TOP limit? Where should I hit REJECT button? 
 > - If Pull Request is larger then **700** changed or new lines, don't be afraid of asking for a breakdown.
-> - If it's sometihing rediculous like **30+** files chnaged, we should breakdown this PR.
+> - If it's something ridiculous like **30+** files changed, we should breakdown this PR.
 
 What if there is no way to avoid **HUGE PR**
 > - Request a group review session (ideally with at least one representative from a different team)
@@ -71,7 +71,7 @@ Every PR Title must follow agreed structure. Be descriptive. Use tags.
 > **Example:**
 > ```
 > [FEATURE] New Login POST endpoint for MyGoCo
-> [BUG] Fixed brken login validation
+> [BUG] Fixed broken login validation
 > [REFACTOR] Implemented factory pattern
 > ```
 
