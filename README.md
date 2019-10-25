@@ -1,6 +1,6 @@
 # Pull Requests Guideline
 
-> This document is designed to be a guideline for engineers, explaining how a good PR look like, and what to do in certain situations.
+> This document is designed to be a guideline for engineers, explaining what a good PR looks like, and what to do in certain situations.
 
 ## Communication
 
@@ -17,10 +17,10 @@
 >
 >   - What are people's thoughts on this and that.
 >   - Do we want to apply this design pattern here?
->   - Not 100% happy with that bit, anyone knows better approach?
+>   - Not 100% happy with that bit, does anyone know a better approach?
 >   - etc.
 >
-> - Communicate if the work is ongoing, For example you can use tags from bellow, like [WIP] if it’s not ready to review
+> - Communicate if the work is ongoing, For example you can use tags from below, like [WIP] if it’s not ready to review
 >   - Ex. `[WIP][FEATURE] Add button component`
 > - You can put your initial comment on PR to explain, that feature is not ready yet but you want early feedback, to avoid big changes in the end.
 > - Comment on your own code if you spot something.
@@ -30,9 +30,9 @@
 > - Be kind, descriptive and open minded.
 > - Make sure you understand the context of the pull request, before you put any feedback.
 > - Cite your reasoning.
-> - Explain your concern well, with example and details. Ideally you would provide an example of what should better solution be.
+> - Explain your concern well, with example and details. Ideally you would provide an example of a potentially better solution.
 > - Make sure you are not making it personal. For example you can use indirect appeal. Ex.
-> - Instead of saying `-"You need to change this to ..."` you can say `-"We use this approach to solve simillar problem ..."`
+> - Instead of saying `-"You need to change this to ..."` you can say `-"We use this approach to solve similar problem ..."`
 
 ## Mentality
 
@@ -45,7 +45,7 @@ Don't be afraid to **REJECT** PR.
 > - Security issues
 > - Missing **Q**uality, **U**nderstanding, **A**greement, **D**eployment, **S**ecurity.
 >   [What is QUADS?](pr_quads.md)
-> - PR is too BIG (see agreed limits bellow)
+> - PR is too BIG (see agreed limits below)
 > - PR is not following this guide
 
 If you have committed your time for reviewing a PR, make sure you are doing it well.
@@ -70,7 +70,7 @@ If you are opening PR.
 
 What PR's are **NOT**
 
-> - PR's, are not just one way, dry opportunity to get your code to `master`
+> - PR’s, are not just an unregulated opportunity for getting your code into `master`
 > - PR's, are not for personal arguments, as well as they are not designed to abuse you or anyone else
 
 What PR's **ARE**
@@ -84,15 +84,15 @@ What PR's **ARE**
 ### What is the perfect PR **size**?
 
 > Many studies of Pull Requests, like one from "Cisco", has shown that ideal size for a single PR is **up to 400 lines** of code.
-> Not only number of lines is important, but number of files is also crucial.
+> Not only the number of lines is important, number of files is also crucial.
 > Why bother?
 >
-> - It quicker & easier to review
-> - It reduces chances of bugs
+> - It is quicker & easier to review
+> - It reduces chance of bugs
 > - It does not block other engineers
 > - It speeds up delivery
 
-What is the real world TOP limit? Where should I hit REJECT button?
+What is the real world TOP limit? When should I hit the **REJECT** button?
 
 > - If Pull Request is larger then **700** changed or new lines, don't be afraid of asking for a breakdown.
 > - If it's something ridiculous like **30+** files changed, we should breakdown this PR.
@@ -116,7 +116,7 @@ Every PR Title must follow agreed structure. Be descriptive. Use tags.
 > [WIP]      # Work In Progress
 > [DNM]      # Do Not Merge
 > ```
-
+>
 > **Example:**
 >
 > ```
@@ -124,7 +124,7 @@ Every PR Title must follow agreed structure. Be descriptive. Use tags.
 > [BUG] Fixed broken login validation
 > [REFACTOR] Implemented factory pattern
 > ```
-
-You can combine TAGs if needed.
-
+>
+> You can combine TAGs if needed.
+>
 > **Example:** > `[WIP][FEATURE] Adding new comment component`
