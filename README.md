@@ -125,6 +125,6 @@ Every PR Title must follow agreed structure. Be descriptive. Use tags.
 > [REFACTOR] Implemented factory pattern
 > ```
 >
-> You can combine TAGs if needed.
+> You can combine TAGs if needed
 >
 > **Example:** > `[WIP][FEATURE] Adding new comment component`
